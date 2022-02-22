@@ -1,0 +1,10 @@
+span.fc-time {
+    display: none !important;
+}
+table i.mdi {
+    padding-left: 18% !important;
+}
+
+.fc-content:hover{
+cursor: context-menu !important;
+}

@@ -1,0 +1,2 @@
+﻿update statut_projet set nom_ar=N'في انتظار معالجة الطلب',nom_fr=N'En attente' where id_statut_projet=1
+update statut_projet set nom_ar=N'Réunion programmée', nom_fr=N'Réunion programmée' where id_statut_projet=2

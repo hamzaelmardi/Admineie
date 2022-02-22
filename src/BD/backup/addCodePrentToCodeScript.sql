@@ -1,0 +1,1 @@
+update code set id_codeparent = (select id_codeparentt from codeparent where numero_code=left(cc.nom_fr,5)) from code cc

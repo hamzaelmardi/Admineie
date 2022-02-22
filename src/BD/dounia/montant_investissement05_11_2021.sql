@@ -1,0 +1,1 @@
+alter table demande_infromation alter column montant_investissement decimal

@@ -1,0 +1,47 @@
+delete from list_doc_notif where 1=1
+delete from doc_import where typeaut='ZF'
+
+
+Go
+SET IDENTITY_INSERT [dbo].[doc_import] ON
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1478, null, N'2021-04-28 12:22:45.6600000', N'Document de notification', N'Document de notification', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1479, null, N'2021-04-28 12:22:45.6600000', N'Document de mouvement', N'Document de mouvement', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1480, null, null, N'Garantie financière', N'Garantie financière', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1481, null, null, N'Copie du contrat conclu entre l''exportateur des déchets et l''importateur/ l''exploitant de l''installation de la valorisation ou l''élimination', N'Copie du contrat conclu entre l''exportateur des déchets et l''importateur/ l''exploitant de l''installation de la valorisation ou l''élimination', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1482, null, null, N'Document des analyses physico-chimiques des déchets / Fiche d''identification ', N'Document des analyses physico-chimiques des déchets / Fiche d''identification ', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1483, null, null, N'Cahier des charges (fixé en annexe 2 du présent arrêté en application des dispositions de l''article 10 du décret susvisé n°2.17.587);', N'Cahier des charges (fixé en annexe 2 du présent arrêté en application des dispositions de l''article 10 du décret susvisé n°2.17.587);', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1484, null, null, N'Autorisation d''exploitation des unités de production des déchets et de leur élimination', N'Autorisation d''exploitation des unités de production des déchets et de leur élimination', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1485, null, null, N'Assurance de la responsabilité civile de l''installation', N'Assurance de la responsabilité civile de l''installation', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1486, null, null, N'Parcours de la charge (itinéraire)', N'Parcours de la charge (itinéraire)', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1487, null, null, N'Modes de valorisation des déchets et leur élimination', N'Modes de valorisation des déchets et leur élimination', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1488, null, null, N'Causes de l''importation (destination finale des déchets importés)', N'Causes de l''importation (destination finale des déchets importés)', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1489, null, null, N'Déclaration sur l''honneur signée', N'Déclaration sur l''honneur signée', N'ZF', null, 2, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1490, null, N'2021-04-28 12:22:45.6600000', N'Document de notification', N'Document de notification', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1491, null, N'2021-04-28 12:22:45.6600000', N'Document de mouvement', N'Document de mouvement', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1492, null, null, N'Garantie financière', N'Garantie financière', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1493, null, null, N'Copie du contrat conclu entre l''exportateur des déchets et l''importateur/l''exploitant de l''installation de la valorisation ou l''élimination des déchets dangereux', N'Copie du contrat conclu entre l''exportateur des déchets et l''importateur/l''exploitant de l''installation de la valorisation ou l''élimination des déchets dangereux', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1494, null, null, N'Document des analyses physico-chimiques des déchets', N'Document des analyses physico-chimiques des déchets', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1495, null, null, N'Attestation d''acceptation des déchets de l''installation de valorisation', N'Attestation d''acceptation des déchets de l''installation de valorisation', N'ZF', N'/assets/myFile/file1118.docx', 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1496, null, null, N'Copie de l''autorisation d''exploitation de l''installation', N'Copie de l''autorisation d''exploitation de l''installation', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1497, null, null, N'Copie de l''autorisation de l''installation pour la valorisation des déchets dangereux et de leur élimination', N'Copie de l''autorisation de l''installation pour la valorisation des déchets dangereux et de leur élimination', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1498, null, null, N'Assurance sur la responsabilité civile de l''installation de valorisation', N'Assurance sur la responsabilité civile de l''installation de valorisation', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1499, null, null, N'L''autorisation de la collecte et du transport des déchets dangereux', N'L''autorisation de la collecte et du transport des déchets dangereux', N'ZF', null, 1, null);
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1500, null, null, N'Cahier des charges', N'Cahier des charges', N'ZF', N'/assets/myFile/file777.docx', 1, N' <p><h6><b><i><u>Les informations que doit contenir obligatoirement le document de cahier des charges sont les suivants : </u></i></b></h6></p>
+                            <p><b>Article premier :</b> Les informations concernant l’identité de l’importateur ou son
+                                représentant : (Nom et prénom, adresse, Téléphone...)</p>
+                            <p><b>Article 2 :</b> Engagement du pétitionnaire de recruter des employés disposant des
+                                certificats attestant leurs compétences et qualifications dans le domaine des déchets
+                                importés.</p>
+                            <p><b>Article 3 :</b>Fournir les données concernant les moyens matériels pour la gestion de
+                                l’opération d’importation de déchets.</p>
+                            <p><b>Article 4 :</b>L’identification des déchets importés et de leur origine.</p>
+                            <p><b>Article 5 :</b>Le parcours des déchets objet de la demande.</p>
+                            <p><b>Article 6 :</b>Engagement du pétitionnaire de disposer d’un système de sécurité lors de
+                                l’opération d’importation notamment pendant les étapes de la collecte, l’emballage, le
+                                marquage, le transport, la valorisation et l’élimination des déchets.</p>
+                            <p><b>Article 7 :</b>L’identification de l’installation de valorisation ou d’élimination des déchets
+                                destinatrice desdits déchets.</p>');
+insert into dbo.doc_import (id_doc_import, cocher, delete_date_time, nom_ar, nom_fr, typeaut, uri, id_classification, description) values (1501, null, null, N'Déclaration sur l''honneur signée', N'Déclaration sur l''honneur signée', N'ZF', null, 1, null);
+SET IDENTITY_INSERT [dbo].[doc_import] OFF
+
+select * from doc_import where typeaut='ZF'

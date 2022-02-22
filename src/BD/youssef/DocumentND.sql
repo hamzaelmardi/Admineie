@@ -1,0 +1,1 @@
+﻿update document_dechetnd set title=N'استيراد النفايات غير الخطرة من دولة أجنبية'
